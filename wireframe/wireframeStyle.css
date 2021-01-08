@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(243, 159, 3);
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+.navigation-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    Background-color: orange;
+    padding: 25px;
+    border: 2px solid black;    
+}
+
+.week {
+  display: flex;
+  flex-direction: row;
+}
+
+.day {
+  border-style: groove;
+  height: 900px;
+  width: 200px;
+}
+.morning{
+height: 500px;
+width: 200px;
+}
+
+.evening{
+height: 500px;
+width: 200px;
+}
+
+.week-add-button{
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    background-color: orange;
+}

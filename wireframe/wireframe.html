@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- to connect the css & html files -->
+    <link href="wireframeStyle.css" rel="stylesheet" type="text/css" />
+
+    <!-- Used to guarantee cross-browser consistency for default styles -->
+    <link
+      href="https://cdnjs.cloudfare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <title>Happy Skin Planner</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Title -->
+      <div class="title">
+        <h1>Happy Skin Planner</h1>
+      </div>
+ 
+      <!-- Navigation Bar within header -->
+      <nav>
+        <ul class='navigation-style'>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#planner">My Planner</a></li>
+          <li><a href="#favorites">My Favorites</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<!-- Body that includes: login, about, planner, and favorites pages -->
+    <main>
+        <section>
+            <div><h2 id="login">Login</h2></div>
+            <!-- Log in section allowing user to decide if returning user or new user -->
+            <fieldset>
+                <h3>Welcome to Happy Skin Planner!</h3>
+                <p>If you are a new user, please create an account.</p>
+                <p>If you are a returning user, please log in.</p>
+                <p>Happy planning!</p>
+                <button>Create Account</button>
+                <button>Log In</button>
+            </fieldset>
+            <!-- Create Account form -->
+            <fieldset>
+                <h3>Create Account</h3>
+                <form>
+                    <div class="container">
+                        <label for="uname"><b>Enter Username: </b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                    
+                        <label for="psw"><b>Set Password: </b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br/><br/>
+                        <button type="submit">Create Account</button>
+                </form>
+            </fieldset>
+            <!-- Returning user login form -->
+            <fieldset>
+                <h3>Log In</h3>
+                <form>
+                    <div class="container">
+                        <label for="uname"><b>Username: </b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                    
+                        <label for="psw"><b>Password: </b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br/><br/>
+                        <button type="submit">Log In</button>
+                </form>
+            </fieldset>
+        </section>
+        <hr/>
+        <section>
+            <div><h2 id="about">About Happy Skin Planner</h2></div>
+            <fieldset>
+                <p>Welcome to Happy Skin Planner! Happy Skin Planner was created in order to assist people who wanted
+                    to take charge of maintaining and prioritizing their skin. It was created with love and is intended
+                    to assist you in planning out your weekly skin care routine. 
+                </p>
+                <p>
+                    With Happy Skin Planner you can decide what products you want to use by adding them into your weekly 
+                    planner, checking them off when complete, and even determine what time of the day they are intended for use
+                    (e.g. Morning or Evening Routine). If you no longer wish to use a specific product, you may also remove the 
+                    product from your planner. If a certain product is intended for use for a specific amount of days, you have 
+                    the ability to do so. Happy Skin Planner is entirely customizable for your use in order to provide your skin 
+                    with the love it needs to leave it ever so happy! 
+                </p>
+
+                <p>
+                    If you have a list of products you absolutely LOVE, there is a section provided for you to save those products.
+                    You may add products you would like to refer back to as well as remove products you grew apart from (I'm sorry, it's you, not me).
+                </p>
+
+                <p>Happy Skin Planning!</p>
+            </fieldset>
+        </section>
+        <hr/>
+        <section>
+            <div><h2 id="planner">Happy Skin Planner</h2></div>
+            <div class='week'>
+                
+                <div class='day'>
+                    <b><u>Monday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Fresh Beauty Sugar Strawberry Exfoliating Face Wash</li><button>Done</button><br/><br/>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Creme de la Mer Moisturizer</li><button>Done</button><br/><br/>
+                        <li>Kiehl's Midnight Recovery Concentrate Face Oil</li><button>Done</button><br/><br/>
+                    </ol>
+                </div> 
+                <div class='day'>
+                    <b><u>Tuesday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Truly Glass Skin Facial Serum</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+                <div class='day'>
+                    <b><u>Wednesday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Fresh Beauty Sugar Strawberry Exfoliating Face Wash</li><button>Done</button><br/><br/>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Creme de la Mer Moisturizer</li><button>Done</button><br/><br/>
+                        <li>Kiehl's Midnight Recovery Concentrate Face Oil</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+                <div class='day'>
+                    <b><u>Thursday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Truly Glass Skin Facial Serum</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+                <div class='day'>
+                    <b><u>Friday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Fresh Beauty Sugar Strawberry Exfoliating Face Wash</li><button>Done</button><br/><br/>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Creme de la Mer Moisturizer</li><button>Done</button><br/><br/>
+                        <li>Kiehl's Midnight Recovery Concentrate Face Oil</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+                <div class='day'>
+                    <b><u>Saturday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Truly Glass Skin Facial Serum</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+                <div class='day'>
+                    <b><u>Sunday</u></b>
+                    <div class='morning'>
+                    <p><u>Morning: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Fresh Beauty Sugar Strawberry Exfoliating Face Wash</li><button>Done</button><br/><br/>
+                        <li>Tatcha The Dewey Skin Cream</li><button>Done</button><br/><br/>
+                        <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                    <div class='evening'>
+                    <p><u>Evening: </u></p>
+                    <button class='week-add-button'>Add</button>
+                    <ol>
+                        <li>Soy Makeup Removing Face Wash</li><button>Done</button><br/><br/>
+                        <li>Creme de la Mer Moisturizer</li><button>Done</button><br/><br/>
+                        <li>Kiehl's Midnight Recovery Concentrate Face Oil</li><button>Done</button><br/><br/>
+                    </ol>
+                    </div>
+                </div> 
+           
+            </div>
+        </section>
+        <hr/>
+        <section>
+            <div><h2 id="favorites">Happy Skin Favorites</h2></div>
+            <button>Add a Product</button>
+            <button>Remove a Product</button>
+            
+            <fieldset>
+                <ul>
+                    <li>Kiehl's Midnight Recovery Concentrate Face Oil</li>
+                    <li>Tatcha The Dewey Skin Cream</li>
+                    <li>Mario Badescu Facial Spray With Aloe Herbs & Rosewater</li>
+                    <li>Creme de la Mer Moisturizer</li>
+                    <li>Fresh Beauty Sugar Strawberry Exfoliating Face Wash</li>
+                    <li>Soy Makeup Removing Face Wash</li>
+                    <li>Truly Glass Skin Facial Serum</li>
+                </ul>
+
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>Happy Skin Planner, Roxanne Cantu 2021</footer>
+  </body>
+</html>
